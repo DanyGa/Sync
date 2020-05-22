@@ -31,10 +31,9 @@ Partial Class FrmQuesadilla
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Sincronizada.My.Resources.Resources.sync
-        Me.PictureBox1.Location = New System.Drawing.Point(72, 169)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Location = New System.Drawing.Point(54, 137)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(399, 271)
+        Me.PictureBox1.Size = New System.Drawing.Size(299, 220)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -43,9 +42,10 @@ Partial Class FrmQuesadilla
         '
         Me.lblTortila.AutoSize = True
         Me.lblTortila.Font = New System.Drawing.Font("Century Gothic", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTortila.Location = New System.Drawing.Point(177, 22)
+        Me.lblTortila.Location = New System.Drawing.Point(133, 18)
+        Me.lblTortila.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblTortila.Name = "lblTortila"
-        Me.lblTortila.Size = New System.Drawing.Size(151, 47)
+        Me.lblTortila.Size = New System.Drawing.Size(120, 38)
         Me.lblTortila.TabIndex = 1
         Me.lblTortila.Text = "Torti-la"
         '
@@ -53,23 +53,23 @@ Partial Class FrmQuesadilla
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(16, 84)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(12, 68)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(471, 66)
+        Me.Label1.Size = New System.Drawing.Size(370, 48)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "PRESIONA LA IMAGEN PARA SABER " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "CÓMO HACER UNA SINCRONIZADA"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'FrmQuesadilla
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(528, 454)
+        Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.ClientSize = New System.Drawing.Size(396, 369)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblTortila)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "FrmQuesadilla"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FrmQuesadilla"
